@@ -80,7 +80,7 @@ public class ProfessorDAO {
                 java.sql.Date dataAdmissao = resultSet.getDate("data_admissao");
 
                 // Agora, você precisa buscar a disciplina com base no código
-                DisciplinaDAO disciplinaDAO = new DisciplinaDAO(); // Certifique-se de que DisciplinaDAO tenha os métodos necessários para buscar disciplina por código.
+                DisciplinaDAO disciplinaDAO = new DisciplinaDAO();
                 Disciplina disciplina = disciplinaDAO.buscaDisciplinaPorCodigo(codigoDisciplina);
 
                 return new Professor(codigo, nome, disciplina, especialidade, dataAdmissao);
