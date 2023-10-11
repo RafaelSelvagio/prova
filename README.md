@@ -6,16 +6,16 @@ Nesta segunda etapa do processo seletivo, os candidatos serão desafiados a impl
 Implemente o menu (na classe Main) com as funcionalidades:
 Funcionalidade 1: cadastro de disciplinas, incluindo sigla ou código da disciplina, nome da disciplina e ementa.
 Funcionalidade 2: cadastro de professores, incluindo código do professor, nome, especialidade, data de admissão e sigla ou código da disciplina na qual ele é responsável.
- Funcionalidade 3: listar todas as disciplinas.
- Funcionalidade 4: listar todos os professores
- Funcionalidade 5: exibir uma disciplina
- Funcionalidade 6: exibir um professor
- Funcionalidade 7: deletar uma disciplina
- Funcionalidade 8: deletar um professor
- Funcionalidade 9: atualizar nome e ementa da disciplina
- Funcionalidade 10: atualizar nome e especialidade do professor
- Funcionalidade 11: exibir todos professores que têm especialidade em "Tecnologia da Informação" (não devem ser exibidos nomes iguais)
- Funcionalidade 12: exibir todos os professores ordenados por data de admissão mais recente. 
+Funcionalidade 3: listar todas as disciplinas.
+Funcionalidade 4: listar todos os professores
+Funcionalidade 5: exibir uma disciplina
+Funcionalidade 6: exibir um professor
+Funcionalidade 7: deletar uma disciplina
+Funcionalidade 8: deletar um professor
+Funcionalidade 9: atualizar nome e ementa da disciplina
+Funcionalidade 10: atualizar nome e especialidade do professor
+Funcionalidade 11: exibir todos professores que têm especialidade em "Tecnologia da Informação" (não devem ser exibidos nomes iguais)
+Funcionalidade 12: exibir todos os professores ordenados por data de admissão mais recente. 
 O sistema deve ser implementado em JAVA, utilizando padrão de desenvolvimento MVC com camada específica para acesso a dados, ou seja, você deve implementar a camada DAO.
 Lembre-se que um professor pode lecionar em mais de uma disciplina.
 Lembre-se de adicionar o connector JDBC ao projeto.
